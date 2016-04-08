@@ -1,0 +1,693 @@
+/*
+Theme Name: School of Medicine IU
+Description:IUSM Main Page
+Author: Ryan Antcliff
+
+*/
+/********************************** Full width Full Page Template Css *******************/
+@font-face {
+    font-family: 'BentonSansBold';
+    src: url('https://fonts.iu.edu/fonts/benton-sans-bold.eot');
+    src: url('https://fonts.iu.edu/fonts/benton-sans-bold.eot?#iefix') format('embedded-opentype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-bold.woff') format('woff'),
+         url('https://fonts.iu.edu/fonts/benton-sans-bold.ttf') format('truetype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-bold.svg#BentonSansBold') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'BentonSansRegular';
+    src: url('https://fonts.iu.edu/fonts/benton-sans-regular.eot');
+    src: url('https://fonts.iu.edu/fonts/benton-sans-regular.eot?#iefix') format('embedded-opentype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-regular.woff') format('woff'),
+         url('https://fonts.iu.edu/fonts/benton-sans-regular.ttf') format('truetype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-regular.svg#BentonSansRegular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family: 'BentonSansItalic';
+    src: url('https://fonts.iu.edu/fonts/benton-sans-italic.eot');
+    src: url('https://fonts.iu.edu/fonts/benton-sans-italic.eot?#iefix') format('embedded-opentype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-italic.woff') format('woff'),
+         url('https://fonts.iu.edu/fonts/benton-sans-italic.ttf') format('truetype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-italic.svg#BentonSansItalic') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'BentonSansBookRegular';
+    src: url('https://fonts.iu.edu/fonts/benton-sans-book-regular.eot');
+    src: url('https://fonts.iu.edu/fonts/benton-sans-book-regular.eot?#iefix') format('embedded-opentype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-book-regular.woff') format('woff'),
+         url('https://fonts.iu.edu/fonts/benton-sans-book-regular.ttf') format('truetype'),
+         url('https://fonts.iu.edu/fonts/benton-sans-book-regular.svg#BentonSansBookRegular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.jumbotron
+{
+ min-height:100% !important;
+ background:#c2c2c2;
+ height:402px;
+}
+
+.jumbotron h1, .jumbotron h1
+{
+ font-size:40px !important;
+}
+
+.sub-page-heading
+{
+font-size:40px !important;
+}
+.news-heading 
+{
+ width:400px;
+ color:white;
+ position: relative;
+ top:50px;
+
+}
+
+.news-content h1 
+{
+ color:#44697d;
+}
+.news-content h2 
+{
+ color:#44697d;
+}
+
+.news-content h3
+{
+ color:#44697d;
+}
+
+
+.button
+{
+ height:100%;
+ width:100%;
+ background:#44697d;
+ height:80px;
+}
+
+.col-sm-7
+{
+ color:white;
+ margin-top:10px;
+ 
+}
+
+
+.col-sm-4 #sub-buttons
+{
+ background:transparent;
+ border:2px solid white;
+ height:42px;
+ width:150px;
+ color:white;
+ font-size:18px;
+ text-transform: uppercase;
+ margin-top:15px;
+ text-align: center;
+ 
+}
+
+.news-button
+{
+ text-align: center;
+}
+
+#part2_news h3
+{
+ color:#44697d;
+}
+
+
+
+
+
+
+/********************************************* Subpage No Added Nav **********************************/
+
+.sub-page-heading
+{
+  width:400px;
+ color:white;
+ position: relative;
+ top:25px;
+ padding-bottom:30px;
+ margin-top:50px;
+}
+
+#section_heading
+{
+ font-size:40px;
+}
+.sub-page-content .col-sm-7 h3
+{
+ color:#44697d !important;
+}
+
+#page-heading-content
+{
+ padding-bottom:25px;
+}
+#page-heading-col-7
+{
+ font-size:24px !important;
+ margin-top:0px;
+}
+
+.sub-box
+{
+background:#44697d;
+ min-height: 100%;
+ width:100%;
+ color:white;
+ padding:10px 50px 50px 30px;
+}
+
+.sub-box h3
+{
+ padding-bottom:20px;
+
+}
+
+#sub-box-h3
+{
+ color:#FFF !important;
+}
+
+.sub-page-content .col-sm-7
+{
+ color:black;
+}
+
+.sub-accordians
+{
+ width:100%;
+ padding-bottom:40px;
+
+}
+.border.col-lg-6 h3 {
+    padding-top: 30px;
+}
+
+.sub-accordians .col-lg-6 h3
+{
+font-size:24px !important;
+ color:#44697d;
+ text-transform: uppercase;
+}
+#sub-expand1
+{
+
+    margin-top: 50px;
+ margin-bottom: 25px;
+}
+
+#sub-expand1 ul li:nth-child(1)
+{
+ border-top:1px solid #44697d !important;
+ 
+}
+
+
+#sub-expand1 ul
+{
+ list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 30px;
+}
+
+#sub-expand1 a
+{
+     text-decoration: none;
+    display: block;
+    padding: 3px 12px 3px 8px;
+    background-color: #FFF;
+    color: #000;
+    border-bottom: 1px solid #44697d;
+    border-right: none;
+    border-left: none;
+  
+    
+      color: #6f6f6f;
+}
+
+
+#sub-expand2
+{
+
+    margin-top: 50px;
+}
+#sub-expand2 ul
+{
+ list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 30px;
+}
+
+#sub-expand2 ul li:nth-child(1)
+{
+ border-top:1px solid #44697d !important;
+ 
+}
+
+#sub-expand2 a
+{
+     text-decoration: none;
+    display: block;
+    padding: 3px 12px 3px 8px;
+    background-color: #FFF;
+    color: #000;
+    border-bottom:1px solid #44697d;
+    border-right: none;
+    border-left: none;
+  
+    
+    color: #6f6f6f;
+}
+
+#additional-subpage-title
+{
+ font-size:18px !important;
+}
+
+.button_sub
+{
+ height:100%;
+ width:100%;
+ background:#44697d;
+ margin-bottom:80px;
+ height:80px;
+}
+
+#button-text-sub
+{
+ font-size:20px !important;
+font-family: 'BentonSansBold';
+ font-size: 18px !important;
+    font-family: 'BentonSansBold';
+    vertical-align: middle;
+    text-align: center;
+ color:#FFF;
+     margin-top: 20px; 
+ 
+}
+
+/************************ Sidebar for Subpage ************************/
+
+.search-sub
+{
+ width:100%;
+}
+
+.side h3
+{
+ color: #44697d;
+  padding-bottom:10px;
+}
+
+.icon-list-sub ul
+{
+ list-style: none;
+
+ 
+}
+
+.icon-list-sub li
+{
+padding-bottom:20px;
+ width:100%;
+}
+
+.sub-links li:nth-child(1)
+{
+ border-top:1px solid #44697d;
+}
+
+
+.sub-links li
+{
+ list-style: none;
+     border-bottom: 1px solid #44697d;
+}
+
+.sub-links li h4
+{
+ font-size:16px;
+color: #44697d;
+}
+
+.icon-list-sub ul
+{
+ padding-left:0px !important;
+ text-align: center;
+}
+
+
+.sub-links ul
+{
+ padding-left:0px !important;
+}
+
+#plus
+{
+ color: #44697d;
+ font-size:20px;
+ padding-right:25px;
+ cursor: pointer;
+}
+
+#icon-list-title
+{
+  color: #44697d;
+ font-size:20px !important;
+}
+
+#contact-links
+{
+  font-size:20px !important;
+   color: #44697d;
+ padding-bottom:25px;
+}
+
+.icon-list-sub {
+    padding-top: 25px;
+}
+
+.search-sub ::-webkit-input-placeholder {
+    color: #44697d !important;
+text-transform: uppercase;
+}
+
+.search-sub  :-moz-placeholder { /* Firefox 18- */
+  color: #44697d !important;
+ text-transform: uppercase;
+
+}
+
+.search-sub  ::-moz-placeholder {  /* Firefox 19+ */
+  color: #44697d !important;
+ text-transform: uppercase;
+ 
+}
+
+.search-sub  :-ms-input-placeholder {  
+     color: #44697d !important;
+ text-transform: uppercase;
+ 
+}
+
+.btn1_subpage
+{
+ height:33px;
+ width:100%;
+}
+
+.content-col-main {
+   float:left;
+   width:100%;
+   padding:1%;
+   border: 1px dotted #ccc;
+   background: #fff;
+}
+
+.content-col-side {
+   float:left;
+   width:100%;
+   padding:1%;
+   border: 1px dotted #ccc;
+   background: #fff;
+}
+
+/* Set the size and font of the tab widget */
+.tabGroup {
+    font: 10pt arial, verdana;
+    width: 100%;
+}
+ 
+/* Configure the radio buttons to hide off screen */
+.tabGroup > input[type="radio"] {
+    position: absolute;
+    left:-100px;
+}
+ 
+/* Configure maximum width of tabs and align to top */
+.tabGroup > div.tablabels {
+   display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 20px;
+    float: right;
+ padding-bottom:80px;
+}
+ 
+/* Configure labels to look like tabs */
+.tabGroup > div.tablabels > label {
+    /* inline-block such that the label can be given dimensions */
+    display: inline-block;
+    width:100%;
+     
+    /* A nice curved border around the tab */
+    border-bottom: 1px solid #44697d;
+    padding-top: 10px;
+    padding-left: 15px;
+ border-left:none;
+ margin-bottom:0px !important;
+    /* Padding around tab text */
+    padding: 15px 10px;
+ 
+    /* Set the background color to default gray (non-selected tab) */
+    
+     
+    z-index:32767;
+}
+
+.tabGroup > div.tablabels > label:nth-child(1)
+{
+ border-top:1px solid #44697d;
+}
+ 
+/* Focused tabs need to be highlighted as such */
+.tabGroup > input#rad1:focus ~ div.tablabels > label[for="rad1"],
+.tabGroup > input#rad2:focus ~ div.tablabels > label[for="rad2"],
+.tabGroup > input#rad3:focus ~ div.tablabels > label[for="rad3"].
+.tabGroup > input#rad4:focus ~ div.tablabels > label[for="rad4"],
+.tabGroup > input#rad5:focus ~ div.tablabels > label[for="rad5"]{
+    background:#44697d;
+ color:white;
+}
+ 
+/* Checked tabs must be white with the bottom border removed */
+.tabGroup > input#rad1:checked ~ div.tablabels > label[for="rad1"],
+.tabGroup > input#rad2:checked ~ div.tablabels > label[for="rad2"],
+.tabGroup > input#rad3:checked ~ div.tablabels > label[for="rad3"],
+.tabGroup > input#rad4:checked ~ div.tablabels > label[for="rad4"],
+.tabGroup > input#rad5:checked ~ div.tablabels > label[for="rad5"]{
+     background:#44697d;
+ color:white;
+    position:relative;
+     
+}
+ 
+.tabGroup > div.tabcontent {
+    display: inline-block;
+    height: 100%;
+ width:70%;
+}
+ 
+/* The tab content must fill the widgets size and have a nice border */
+.tabGroup > div.tabcontent > div {
+    width:100%;
+    display: none;
+    border: 1px solid #44697d;
+    background-color: white;
+    padding: 10px 10px;
+    height: 100%;
+    overflow: auto;     
+   
+}
+ 
+/* This matchs tabs displaying to thier associated radio inputs */
+.tabGroup > .tab1:checked ~ div.tabcontent > .tab1,
+.tabGroup > .tab2:checked ~ div.tabcontent > .tab2,
+.tabGroup > .tab3:checked ~ div.tabcontent > .tab3,
+.tabGroup > .tab4:checked ~ div.tabcontent > .tab4,
+.tabGroup > .tab5:checked ~ div.tabcontent > .tab5
+{
+    display: inline-block;
+}
+
+.col-sm-6.left
+{
+ padding:0px;
+}
+
+
+.col-sm-6.right-subnews
+{
+ padding:0px;
+}
+.right-subnews h3
+{
+ margin:0px;
+ padding:0px;
+ color:#44697d;
+padding-bottom: 10px !important;
+}
+
+#news-tab-button
+{
+ height:43px;
+ width:138px;
+ background:#44697d;
+ color:white;
+ border:none;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+
+
+
+
+
+/**************************** SINGLE NEWS POSTS ********************************************************************************/
+	    .blog-post-title
+		{
+		color:#44697d;
+		font-size:24px;	
+		}
+		
+		.subtopic-heading
+		{
+		font-size:18px;
+		color:#44697d;
+		}
+		
+		#next{
+			float:right;
+		}
+		#next a{
+			border:none;
+			font-weight:bold;
+		font-size:11px;		
+		}
+		
+		#previous
+		{
+		float:left;	
+		}
+		#previous a
+		{
+		border:none;
+		font-weight:bold;
+		font-size:11px;			
+		}
+		
+		.form-control
+		{
+			
+			width:100% !important;
+		}
+		
+	.search-q
+		{
+		background:#44697d !important;
+		
+		}
+		
+		.glyphicon-search
+		{
+			color:white;
+			font-size:12px;
+		}
+		
+		#menu-title
+		{
+		text-transform:uppercase;
+		color:#44697d;
+		font-size:24px;
+		
+		}
+		
+	
+	
+	 .accordion-toggle {cursor: pointer;}
+  .accordion-content {display: none;}
+
+
+
+div#accordion {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 30px;
+}
+
+
+.accordion-toggle {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding: 16px 12px 3px 8px;
+    background-color: #FFF;
+    color: #000;
+    border-bottom: 1px solid #44697d;
+    border-right: none;
+    border-left: none;
+    color: #6f6f6f;
+}
+
+p.accordion-toggle:nth-child(1)
+{
+border-top:1px solid #44697d;
+}
+
+
+ .accordion-toggle3 {cursor: pointer;}
+  .accordion-content3 {display: none;}
+
+
+
+div#accordion3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 30px;
+}
+
+
+.accordion-toggle3 {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding: 16px 12px 3px 8px;
+    background-color: #FFF;
+    color: #000;
+    border-bottom: 1px solid #44697d;
+    border-right: none;
+    border-left: none;
+    color: #6f6f6f;
+}
+
+p.accordion-toggle3:nth-child(1)
+{
+border-top:1px solid #44697d;
+}

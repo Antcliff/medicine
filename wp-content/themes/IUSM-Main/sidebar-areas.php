@@ -1,0 +1,1 @@
+<?php wp_dropdown_categories( 'category=areas' ); ?>
